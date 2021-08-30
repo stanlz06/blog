@@ -2,13 +2,16 @@
 module.exports = [
   { text: '首页', link: '/' },
   {
-    text: '前端',
+    text: 'TypeScript',
     link: '/web/',
     items: [
       {
-        text: '前端文章',
+        text: 'TypeScript',
         items: [
-          { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' }
+          {
+            text: 'Ts高级类型（Utility Types）',
+            link: '/typescript/utility/'
+          }
         ]
       }
     ]
