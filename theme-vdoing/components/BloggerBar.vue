@@ -1,7 +1,9 @@
 <template>
   <aside class="blogger-wrapper card-box">
     <div class="avatar">
-      <img :src="blogger.avatar" alt="头像" title="我好看吗" />
+      <!-- <img :src="blogger.avatar" alt="头像" title="我好看吗" /> -->
+      <img src="/blog/img/avatar.png" alt="头像" title="我好看吗" />
+      <!-- <img :src="$withBase($site.themeConfig.blogger.avatar)" alt="头像" title="我好看吗" /> -->
     </div>
     <div class="icons" v-if="social && social.icons && social.icons.length">
       <a
@@ -30,6 +32,9 @@ export default {
     social () {
       return this.$themeConfig.social
     }
+  },
+  mounted() {
+    console.log(this.blogger.avatar)
   }
 }
 </script>
