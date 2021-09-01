@@ -12,16 +12,13 @@ cd docs/.vuepress/dist
 # deploy to github pages
 # echo 'b.kazaf.com' > CNAME
 
-msg='来自github actions的自动部署'
-githubUrl=git@github.com:stanlz06/blog.git
-
 git config --global user.name "linzhenbin"
 git config --global user.email "770541591@qq.com"
 
 git init
 git add -A
-git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
+git commit -m '来自github actions的自动部署'
+git push -f git@github.com:stanlz06/blog.git master:gh-pages # 推送到github gh-pages分支
 
 cd -
 rm -rf docs/.vuepress/dist
