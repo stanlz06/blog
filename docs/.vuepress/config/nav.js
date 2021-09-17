@@ -25,4 +25,18 @@ module.exports = [
       }
     ]
   },
+  {
+    text: 'LeetCode',
+    link: '/leetcode/',
+    items: [
+      {
+        text: 'LeetCode 跳水版-面试题16.11',
+        link: '/LeetCode/021847/'
+      },
+      {
+        text: 'LeetCode 字母大小写全排列-784',
+        link: '/LeetCode/982301/'
+      }
+    ]
+  }
 ]
