@@ -36,6 +36,10 @@ module.exports = [
       {
         text: 'LeetCode 字母大小写全排列-784',
         link: '/LeetCode/982301/'
+      },
+      {
+        text: 'LeetCode 有效的括号-20',
+        link: '/LeetCode/12ui132/'
       }
     ]
   }
