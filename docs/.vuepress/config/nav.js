@@ -40,6 +40,10 @@ module.exports = [
       {
         text: 'LeetCode 有效的括号-20',
         link: '/LeetCode/12ui132/'
+      },
+      {
+        text: 'LeetCode 合并两个有序链表-21',
+        link: '/LeetCode/1248j8/'
       }
     ]
   }
