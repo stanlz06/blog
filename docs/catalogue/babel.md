@@ -2,12 +2,12 @@
 pageComponent:
   name: Catalogue
   data:
-    key: LeetCode
+    key: Babel
     imgUrl: /img/other.png
-    description: LeetCode文章
-title: LeetCode
-date: 2021-09-15 12:25:12
-permalink: /leetcode
+    description: Babel文章
+title: Babel
+date: 2022-2-27 16:23:52
+permalink: /babel
 sidebar: false
 article: false
 comment: false

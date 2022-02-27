@@ -1,7 +1,7 @@
 ---
-pageComponent: 
+pageComponent:
   name: Catalogue
-  data: 
+  data:
     key: Typescript
     imgUrl: /img/other.png
     description: TypeScript文章
@@ -13,4 +13,3 @@ article: false
 comment: false
 editLink: false
 ---
-

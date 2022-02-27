@@ -1,7 +1,7 @@
 ---
-pageComponent: 
+pageComponent:
   name: Catalogue
-  data: 
+  data:
     key: JavaScript
     imgUrl: /img/other.png
     description: JavaScript文章
@@ -13,4 +13,3 @@ article: false
 comment: false
 editLink: false
 ---
-

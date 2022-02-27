@@ -53,7 +53,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: '/blog/img/avatar.png',
     name: 'Kazaf',
-    // slogan: '前端界的小学生',
+    slogan: '每天进步一点点',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
