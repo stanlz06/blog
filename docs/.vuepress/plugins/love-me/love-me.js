@@ -32,7 +32,8 @@ export default () => {
                 y: e.clientY - 5,
                 scale: 1,
                 alpha: 1,
-                color: COLOR
+                // color: COLOR
+                color: "rgb(" + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + "," + ~~ (255 * Math.random()) + ")"
             }),
             t.body.appendChild(a)
         }
