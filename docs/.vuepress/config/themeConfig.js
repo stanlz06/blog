@@ -13,11 +13,10 @@ module.exports = {
   editLinks: true, // 启用编辑
   editLinkText: '编辑',
   bodyBgImg: [
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-2.jpg',
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-3.jpg',
-    // 'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-4.jpg',
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-5.jpg',
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-6.jpg',
+    '/img/bodyBgImg1.png',
+    '/img/bodyBgImg2.png',
+    '/img/bodyBgImg3.png',
+    '/img/bodyBgImg4.png',
   ],
   bodyBgImgOpacity: 0.7,
 
