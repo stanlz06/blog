@@ -1,4 +1,4 @@
-const nav = require('./nav.js');
+const nav = require('./nav.js')
 // const sidebar = require('./sidebar.js');
 
 // 主题配置
@@ -16,10 +16,9 @@ module.exports = {
     'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-5.jpg',
     'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-2.jpg',
     'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-3.jpg',
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-6.jpg',
+    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-6.jpg'
   ],
-  bodyBgImgOpacity: 0.7,
-
+  bodyBgImgOpacity: 0.9,
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
 
@@ -55,13 +54,13 @@ module.exports = {
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     name: 'Kazaf', // 必需
-    link: 'https://github.com/stanlz06', // 可选的
+    link: 'https://github.com/stanlz06' // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar: '/blog/img/avatar.png',
     name: 'Kazaf',
-    slogan: '每天进步一点点',
+    slogan: '小小前端,可笑可笑'
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
@@ -70,25 +69,25 @@ module.exports = {
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:770541591@qq.com',
+        link: 'mailto:770541591@qq.com'
       },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/stanlz06',
+        link: 'https://github.com/stanlz06'
       },
       {
         iconClass: 'icon-erji',
         title: '听音乐',
-        link: 'https://y.qq.com/n/ryqq/profile/like/song',
-      },
-    ],
+        link: 'https://y.qq.com/n/ryqq/profile/like/song'
+      }
+    ]
   },
   footer: {
     // 页脚信息
     createYear: 2021 // 博客创建年份
     // copyrightInfo:
-      // 'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+    // 'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   }
   // htmlModules // 插入hmtl(广告)模块
 }
