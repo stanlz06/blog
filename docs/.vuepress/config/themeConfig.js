@@ -13,9 +13,9 @@ module.exports = {
   editLinks: true, // 启用编辑
   editLinkText: '编辑',
   bodyBgImg: [
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-5.jpg',
     'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-2.jpg',
     'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-3.jpg',
+    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-5.jpg',
     'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-6.jpg'
   ],
   bodyBgImgOpacity: 0.9,
@@ -60,7 +60,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: '/blog/img/avatar.png',
     name: 'Kazaf',
-    slogan: '小小前端,可笑可笑'
+    slogan: '小小前端 可笑可笑'
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
