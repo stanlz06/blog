@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>{{ title }}</title>
-    <meta name="generator" content="VuePress {{ version }}">
-    {{{ userHeadTags }}}
-    {{{ pageMeta }}}
-    {{{ renderResourceHints() }}}
-    {{{ renderStyles() }}}
+    <meta name="generator" content="VuePress {{ version }}" />
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/gh/summerking1/image@main/0-5.jpg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/gh/summerking1/image@main/0-3.jpg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/gh/summerking1/image@main/0-2.jpg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/gh/summerking1/image@main/0-6.jpg"
+      as="image"
+    />
+    {{{ userHeadTags }}} {{{ pageMeta }}} {{{ renderResourceHints() }}} {{{
+    renderStyles() }}}
   </head>
   <body class="theme-mode-light">
     <!--vue-ssr-outlet-->
