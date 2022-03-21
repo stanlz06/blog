@@ -12,12 +12,13 @@ module.exports = {
   docsDir: 'docs', // 编辑的文件夹
   editLinks: true, // 启用编辑
   editLinkText: '编辑',
-  bodyBgImg: [
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-5.jpg',
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-3.jpg',
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-2.jpg',
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-6.jpg'
-  ],
+  bodyBgImg: '/blog/img/bodyBgImg.png',
+  // bodyBgImg: [
+    // 'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-5.jpg',
+    // 'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-3.jpg',
+    // 'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-2.jpg',
+    // 'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-6.jpg'
+  // ],
   bodyBgImgOpacity: 0.8,
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
