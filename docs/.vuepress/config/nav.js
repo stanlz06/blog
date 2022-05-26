@@ -12,6 +12,10 @@ module.exports = [
       {
         text: 'typescript',
         link: '/typescript/utility/'
+      },
+      {
+        text: 'vue',
+        link: '/vue/watermark/'
       }
     ]
   },
