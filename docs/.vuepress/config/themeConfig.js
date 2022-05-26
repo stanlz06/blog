@@ -12,17 +12,18 @@ module.exports = {
   docsDir: 'docs', // 编辑的文件夹
   editLinks: true, // 启用编辑
   editLinkText: '编辑',
-  bodyBgImg: [
-    // '/blog/img/bodyBgImg1.png',
-    // '/blog/img/bodyBgImg2.png',
-    // '/blog/img/bodyBgImg3.png',
-    // '/blog/img/bodyBgImg4.png'
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-5.jpg',
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-3.jpg',
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-2.jpg',
-    'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-6.jpg'
-  ],
-  bodyBgImgOpacity: 0.8,
+  bodyBgImg: '/blog/img/bodyBgImg1.png',
+  // bodyBgImg: [
+  //   // '/blog/img/bodyBgImg1.png',
+  //   // '/blog/img/bodyBgImg2.png',
+  //   // '/blog/img/bodyBgImg3.png',
+  //   // '/blog/img/bodyBgImg4.png'
+  //   'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-5.jpg',
+  //   'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-3.jpg',
+  //   'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-2.jpg',
+  //   'https://cdn.jsdelivr.net/gh/summerking1/image@main/0-6.jpg'
+  // ],
+  bodyBgImgOpacity: 0.7,
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
 
@@ -64,7 +65,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: '/blog/img/avatar.png',
     name: 'Kazaf',
-    slogan: '小小前端 可笑可笑'
+    slogan: '前端打字员'
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
