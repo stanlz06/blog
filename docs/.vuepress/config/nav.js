@@ -28,5 +28,15 @@ module.exports = [
         link: '/babel/base/'
       }
     ]
+  },
+  {
+    text: '服务端',
+    link: '/backend/',
+    items: [
+      {
+        text: 'nginx',
+        link: '/nginx/base/'
+      }
+    ]
   }
 ]
