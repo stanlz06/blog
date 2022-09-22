@@ -16,6 +16,10 @@ module.exports = [
       {
         text: 'vue',
         link: '/vue/watermark/'
+      },
+      {
+        text: 'react',
+        link: '/react/zujian/'
       }
     ]
   },
